@@ -1,0 +1,31 @@
+$ancho:150px;
+$alto:100px;
+
+$anchoinput:80%;
+$altoinput:100px;
+
+
+ul{
+    list-style-type: none;
+    margin: -1em 0 2em -1em;
+}
+ul label{
+    text-align:left;
+    display:inline-block;
+    width: $ancho;
+    height: $alto;
+    margin: -1em 0 2em -1em;
+}
+
+input[type='text']{
+    display: inline-block;
+    width: $anchoinput;
+    /* height: $altoinput; */
+    margin: -1em 0 2em -1em;
+}
+
+.form{
+    text-align: center;
+    
+
+}

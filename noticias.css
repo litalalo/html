@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+header{
+    display: block;
+}
+#header{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+#header {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(206, 182, 182, 0.95);
+    height: 3em;
+    line-height: 3em;
+    box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#header nav {
+    position: absolute;
+    right: 0.5em;
+    top: 0;
+    height: 3em;
+    line-height: 3em;
+}
+
+    #header nav ul {
+        margin: 0;
+    }
+
+        #header nav ul li {
+            display: inline-block;
+            margin-left: 0.5em;
+            font-size: 1.00em;
+        }
+
+            #header nav ul li a {
+                display: block;
+                color: inherit;
+                text-decoration: none;
+                height: 3em;
+                line-height: 3em;
+                padding: 0 0.5em 0 0.5em;
+                outline: 0;
+            }
+
+            @media screen and (max-width: 736px) {
+
+                #header {
+                    height: 2.5em;
+                    line-height: 2.5em;
+                }
+            
+                    #header h1 {
+                        text-align: center;
+                        position: relative;
+                        left: 0;
+                        top: 0;
+                        height: 2.5em;
+                        line-height: 2.5em;
+                    }
+            
+                        #header h1 a {
+                            font-size: 1em;
+                        }
+            
+                    #header nav {
+                        display: none;
+                    }
+            
+            }
+
+
+/*body*/
+body {
+
+	-webkit-text-size-adjust: none;
+}
+body {
+	line-height: 1;
+    margin: 200px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+    background: #e4d3d3;
+    height: 100%;
+    min-width: 320px;
+    margin-top: auto;
+}
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    font-size: 1.25em;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    text-align: center;
+}
+
+.image{
+   
+    width: 400px;
+    height: 300px;
+}
+.container{
+    margin-top: auto;
+    display:flex;
+    justify-content: center;
+}
+
+.txt{
+    align-items: center;
+    display:auto;
+    margin-left: 50px;
+    
+    justify-content: center;
+}
+.video{ 
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
+/*footer*/
+#footer {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    line-height: 1em;
+    padding: 1.5em;
+    background: #39454b;
+    color: rgba(185, 186, 187, 0.5);
+    overflow: hidden;
+}
+#footer > * {
+    margin-bottom: 0;
+}
+
+#footer a {
+    color: inherit;
+}
+
+    #footer a:hover {
+        color: #b9babb;
+    }
+
+#footer ul.menu {
+    margin: 0;
+}
+
+    #footer ul.menu li {
+        border-left-color: rgba(185, 186, 187, 0.2);
+        font-size: 0.9em;
+    }
+
+@media screen and (max-width: 1000px) {
+
+    #footer {
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        justify-content: center;
+        line-height: 1.5em;
+        text-align: center;
+        padding: 2em 1em 2em 1em;
+    }
+
+        #footer > * {
+            margin: 0 0 1em 0;
+        }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #footer ul.menu li {
+        border-left: none;
+        display: block;
+        line-height: inherit;
+        margin: 0.25em 0 0 0;
+        padding: 0.25em 0 0 0;
+    }
+
+        #footer ul.menu li:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+}
+/* Icon redes sociales */
+
+.icon {
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+}
+
+    .icon:before {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        text-transform: none !important;
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 400;
+    }
+
+    .icon:before {
+        line-height: inherit;
+    }
+
+    .icon > .label {
+        display: none;
+    }
+
+    .icon.solid:before {
+        font-weight: 900;
+    }
+
+    .icon.brands:before {
+        font-family: 'Font Awesome 5 Brands';
+    }
+label {
+    display: block;
+}
+/* Icons */
+
+ul.icons {
+    cursor: default;
+}
+
+    ul.icons li {
+        display: inline-block;
+    }
+
+    ul.icons a {
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        border: 0;
+    }
+.icon > .label {
+    display: none;
+}

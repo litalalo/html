@@ -1,0 +1,30 @@
+
+.torre{
+    align-content: center;
+    display: block;
+    width: 60%;
+    margin: 2%;
+}
+
+.letra{
+    display: inline-block;
+    text-align: top;
+    width: 80%;
+    margin: 2%;
+}
+
+h1{
+    text-align: center;
+    text-decoration: dotted;
+    font-family: 'Lucida Sans';
+}
+.tipo{
+    font-family: Courier, monospace;
+    text-align: left;
+}
+.image img {
+    display: inline-block;
+    display: block;
+    height: 600px;
+    width: 600px;
+}
