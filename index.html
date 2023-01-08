@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Paris</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/estilos.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Paris</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Introduccion</a></li>
+						<li><a href="#noticias">Noticias</a></li>
+						<li><a href="#lugares">Lugares</a></li>
+						<li><a href="#rutas">Rutas</a></li>
+						<li><a href="#registro">Registro</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Introduccion -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Bienvenido</h2>
+					</header>
+					<p>Bienvenido a <strong>Paris</strong> 
+						considerada la ciudad más romántica del mundo, es un epicentro del arte, la moda, la gastronomía y la cultura</a>.</p>
+					<footer>
+						<a href="#noticias" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- Noticias -->
+			<section id="noticias" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Noticias</h2>
+					</header>
+					<p>En el siguiente enlace podras consultar las noticias de ultima hora en Paris <a href="noticias.html">Noticias</a>
+					</p>
+				</div>
+				<a href="#lugares" class="button style2 down anchored">Next</a>
+			</section>
+
+		
+
+		<!-- lugares -->
+		<section id="lugares" class="main style3 primary">
+			<div class="content">
+				<header>
+					<h2>Lugares de interes</h2>	
+				</header>
+	
+				<!-- Gallery  -->
+					<div class="gallery">
+						<article class="from-left">
+							<a href="torre.html" data-poptrox="iframe,800x600" class="image fit"><img src="images/thumbs/t01.jpg" title="Torre Eiffel"/></a>
+						</article>
+						<article class="from-right">
+							<a href="catedral.html" data-poptrox="iframe,800x600" class="image fit"><img src="images/thumbs/t02.jpg" title="Notre Dame"/></a>
+						</article>
+						<article class="from-left">
+							<a href="https://youtu.be/vmKeRxv-xwM" class="image fit"><img src="images/thumbs/t03.jpg" title="The Louvre" alt="" /></a>
+						</article>
+						<article class="from-right">
+							<a href="https://youtu.be/dYbiGVANIH8" class="image fit"><img src="images/thumbs/t04.jpg" title="Jardines de Versalles" alt="" /></a>
+						</article>
+						<article class="from-left">
+							<a href="https://youtu.be/8Tnpi5jUTsk" class="image fit"><img src="images/thumbs/t05.jpg" title="La Basílica del Sagrado Corazón de Montmartre" alt="" /></a>
+						</article>
+						<article class="from-right">
+							<a href="https://youtu.be/lcqQ3c8Farg" class="image fit" ><img src="images/thumbs/t06.jpg" title="Disneyland Paris, complejo turístico recreacional y de vacaciones a 32 kilómetros del centro de París."/></a>
+						</article>
+					</div>
+					<a href="#rutas" class="button style2 down anchored">Next</a>
+			</div>
+		</section>
+
+			<!-- Rutas -->
+			<section id="rutas" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Itinerarios</h2>
+					</header>
+					<p>En este enlace podras ver dos itinerarios uno de una ruta de 3 dias en Paris y otro de una semana <a href="guia.html">Rutas</a>
+					</p>
+				</div>
+				<a href="#registro" class="button style2 down anchored">Next</a>
+			</section>
+			
+
+
+		<!-- Contact -->
+			<section id="registro" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Registrate</h2>
+						<p>Completa el siguiente formulario para realizar una visita por el centro de Paris</p>
+					</header>
+					<div class="box">
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field half"><label for="Nombre">Nombre</label><br>
+								<input type="text" id="nombre" placeholder="Nombre"></div>
+							<div class="field half"><label for="Apellido">Apellido</label><br>
+								<input type="text" id="apellido" placeholder="Apellido"></div>
+							<div class="field half"><label for="Telefono">Telefono</label><br>
+								<input type="tel" id="telefono" placeholder="Teléfono"></div>
+							<div class="field half"><label for="Email">Email</label><br>
+								<input type="email"  id="email"  placeholder="Email" /></div>	
+							<div class="field falf"><label for="Visita">Fecha Visita</label><br>
+								<input type="date" id="fecha"></div>
+							<div class="field half"><label for="hora">Hora</label><br>
+								<select id="hora">
+									<option>Hora</option>
+									<option>10:00</option>
+									<option>12:00</option>
+									<option>16:00</option>
+									<option>18:00</option>
+								</select>
+							</div>
+							<div class="field half"><label for="Visita">Visita con Almuerzo o sin almuerzo</label><br>
+								<select id="Almuerzo">
+									<option> Visita con Almuerzo </option>
+									<option> Visita sin almuerzo </option>
+								</select>
+							</div>
+							<div class="field half"><label for="personas">Nº Personas </label><br>
+								<input type="number" id="tickets" placeholder="Nº personas"></div>	
+							<br>
+							<div class="field"><textarea name="message" placeholder="Observaciones" rows="2"></textarea></div>
+							<br>
+							<ul class="actions special">
+								<li><input type="submit" method="post" value="Reserva" /></li>
+							</ul>
+		
+						</form>
+					</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer-->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li><li>Design: 1ºASIR <a href="https://www.linkedin.com/in/patricia-sanchez-morales-b73705179">Patricia Sanchez Morales</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
